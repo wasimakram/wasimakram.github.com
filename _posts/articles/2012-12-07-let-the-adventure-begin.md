@@ -20,10 +20,11 @@ So next week will be posting my humble attempt at teaching the world d3 and add 
 
 Other passions are ruby/rails ofcourse SOA with rails and
 [go](http://golang.org) based services having a frontend in backbone all
-this done with my version of TDD = doing tdd till its fun :). 
+this done with my version of TDD = doing tdd till its fun :).
 
 # Whoami?
 
-This Dude -> 
+This Dude >>
+
 ![](http://www.gravatar.com/avatar/6ebe330f769012228406ee012fbe940d.png?size=300x300)
 
