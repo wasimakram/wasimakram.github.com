@@ -8,7 +8,7 @@ categories:
 - articles
 published: true
 ---
-tldr; Starting a blog :)
+tl;dr Starting a blog :)
 
 # Learning new things and sharing to the world
 
