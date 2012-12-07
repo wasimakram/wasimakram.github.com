@@ -1,16 +1,4 @@
 ---
-published: false
-layout: article
-title: Wasim`s Adventures 
-abstract: Programing adventures of Wasim Akram
-author_twitter: _wasim
-author: Wasim Akram
-categories:
-- articles
-
----
-
----
 layout: article
 title: Let The Adventures Begin
 abstract: Starting my blog of learning new technologies and random thoughts.
