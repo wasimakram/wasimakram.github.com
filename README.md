@@ -1,4 +1,4 @@
-Prose Bootstrap
+Wasim Akram's Blog
 =================
 
-A minimal template to get started with Jekyll and Prose.
+Many thanks to prose.io for their bootstrap theme

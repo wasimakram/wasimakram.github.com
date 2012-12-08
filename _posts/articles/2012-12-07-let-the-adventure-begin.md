@@ -14,7 +14,7 @@ tl;dr Starting a blog :)
 
 Every month I start learning something obsessively, from ruby to functional programming to something completely different like [d3](http://d3js.org) I want to share how my learning process goes what can i teach the world and improve myself in return.
 
-So next week will be posting my humble attempt at teaching the world d3 and add my humble tutorial among many brilliant ones.
+So next week will be posting my humble attempt at teaching the world d3 and add tutorial among many brilliant ones.
 
 # What else?
 
