@@ -1,20 +1,3 @@
-auto: true
-server: true
-permalink: none
-baseurl: ""
-exclude:
-- .gitignore
-- README.md
-
-prose:
-  rooturl: "_posts"
-  metadata: 
-    _posts/articles: |
-      published: false
-      layout: article
-      title: Wasim`s Adventures 
-      abstract: Programing adventures of Wasim Akram
-      author_twitter: _wasim
-      author: Wasim Akram
-      categories:
-      - articles
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
