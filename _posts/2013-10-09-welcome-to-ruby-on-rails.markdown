@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Welcome to Ruby on Rails Workshop"
-date:   2013-10-09 00:25:29
-categories: Ruby on Rails
----
-
 *Currently being edited*
 
 Ruby on Rails Workshop
@@ -13,10 +6,10 @@ Ruby on Rails Workshop
 Table of Contents
 ---
 
-1. [Ruby Tutorials](#ruby-tutorials)
-2. [Development Machine Setup](#development-machine-setup)
-    * [Windows](#setup-windows)
-    * [Linux](#setup-linux)
+1. [Ruby Tutorials](#-1-ruby-tutorials)
+2. [Development Machine Setup](#-2-development-machine-setup)
+    * [Windows](#-windows)
+    * [Linux](#-linux)
 
 <a id="ruby-tutorials"></a> 1. Ruby Tutorials
 ---
