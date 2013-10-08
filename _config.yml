@@ -3,7 +3,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Server
-exclude:          [".gitignore", ".ruby-version", "Gemfile", "Gemfile.lock"]
+exclude:          ["README.md", ".gitignore", ".ruby-version", "Gemfile", "Gemfile.lock"]
 port:             4000
 
 name: Wasim Akram
