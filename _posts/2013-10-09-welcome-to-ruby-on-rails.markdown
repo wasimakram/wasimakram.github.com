@@ -13,7 +13,7 @@ Following tutorials are amazing.
 * http://tryruby.org/levels/1/challenges/0
 * http://rubymonk.com/
 
-------------------
+===
 
 ###  Development Machine Setup
 Following instructions are taken from http://gorails.com/setup/ubuntu
@@ -35,7 +35,8 @@ sudo apt-get update
 
 3. Install libraries
 > ```
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev \
+libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev
 > ```
 
 
@@ -149,4 +150,4 @@ rake db:create
 
   [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
-------------------
+===
