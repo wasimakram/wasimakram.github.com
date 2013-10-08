@@ -11,7 +11,7 @@ Table of Contents
     * [Windows](#-windows)
     * [Linux](#-linux)
 
-<a id="ruby-tutorials"></a> 1. Ruby Tutorials
+<a id="-1-ruby-tutorials"></a> 1. Ruby Tutorials
 ---
 
 Following tutorials are amazing.
@@ -19,10 +19,10 @@ Following tutorials are amazing.
 * [tryruby](http://tryruby.org/levels/1/challenges/0)
 * [rubymonk](http://rubymonk.com/)
 
-<a id="development-machine-setup"></a> 2. Development Machine Setup
+<a id="-2-development-machine-setup"></a> 2. Development Machine Setup
 ---
 
-### <a id="setup-windows"></a> Windows
+### <a id="-windows"></a> Windows
 1. Install Ruby on Rails
   
   [RailsInstaller](http://railsinstaller.org/en "Install ruby, rails git and other tools")
@@ -33,7 +33,7 @@ Following tutorials are amazing.
   [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
 
-### <a id="setup-linux"></a> Linux
+### <a id="-linux"></a> Linux
 
 Following instructions are taken from [http://gorails.com/setup/ubuntu](http://gorails.com/setup/ubuntu)
 
