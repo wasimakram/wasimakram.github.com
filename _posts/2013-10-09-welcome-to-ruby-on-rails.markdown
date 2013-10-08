@@ -7,8 +7,6 @@ categories: Ruby on Rails
 
 *Currently being edited*
 
-## Welcome to Ruby on Rails Workshop
-
 ### Ruby Tutorials
 Following tutorials are amazing.
 
