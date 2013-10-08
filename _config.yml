@@ -1,3 +1,17 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Server
+destination:      ./_gh_pages
+exclude:          [".gitignore", ".ruby-version", "Gemfile", "Gemfile.lock"]
+port:             4000
+
+name: Wasim Akram
+safe: true
+lsi: false
+url: "wasimakram.github.io"
+
+
+twitter: _wasim
+github: wasimakram

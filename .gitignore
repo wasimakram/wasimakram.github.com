@@ -1,1 +1,6 @@
+# Ignore compiled
+_gh_pages
 _site
+
+# OS
+.DS_Store
