@@ -31,19 +31,49 @@
         <section id="main_content">
           <p><em>Currently being edited</em></p>
 
-<h2>
-<a name="welcome-to-ruby-on-rails-workshop" class="anchor" href="#welcome-to-ruby-on-rails-workshop"><span class="octicon octicon-link"></span></a>Welcome to Ruby on Rails Workshop</h2>
+<h1>
+<a name="ruby-on-rails-workshop" class="anchor" href="#ruby-on-rails-workshop"><span class="octicon octicon-link"></span></a>Ruby on Rails Workshop</h1>
 
-<h3>
-<a name="ruby-tutorials" class="anchor" href="#ruby-tutorials"><span class="octicon octicon-link"></span></a>Ruby Tutorials</h3>
+<h2>
+<a name="table-of-contents" class="anchor" href="#table-of-contents"><span class="octicon octicon-link"></span></a>Table of Contents</h2>
+
+<ol>
+<li><a href="#ruby-tutorials">Ruby Tutorials</a></li>
+<li>
+<a href="#development-machine-setup">Development Machine Setup</a>
+
+<ul>
+<li><a href="#setup-windows">Windows</a></li>
+<li><a href="#setup-linux">Linux</a></li>
+</ul>
+</li>
+</ol><h2>
+<a name="-1-ruby-tutorials" class="anchor" href="#-1-ruby-tutorials"><span class="octicon octicon-link"></span></a><a></a> 1. Ruby Tutorials</h2>
 
 <p>Following tutorials are amazing.</p>
 
 <ul>
-<li><a href="http://tryruby.org/levels/1/challenges/0">http://tryruby.org/levels/1/challenges/0</a></li>
-<li><a href="http://rubymonk.com/">http://rubymonk.com/</a></li>
-</ul><hr><h3>
-<a name="development-machine-setup" class="anchor" href="#development-machine-setup"><span class="octicon octicon-link"></span></a>Development Machine Setup</h3>
+<li><a href="http://tryruby.org/levels/1/challenges/0">tryruby</a></li>
+<li><a href="http://rubymonk.com/">rubymonk</a></li>
+</ul><h2>
+<a name="-2-development-machine-setup" class="anchor" href="#-2-development-machine-setup"><span class="octicon octicon-link"></span></a><a></a> 2. Development Machine Setup</h2>
+
+<h3>
+<a name="-windows" class="anchor" href="#-windows"><span class="octicon octicon-link"></span></a><a></a> Windows</h3>
+
+<ol>
+<li>
+<p>Install Ruby on Rails</p>
+
+<p><a href="http://railsinstaller.org/en" title="Install ruby, rails git and other tools">RailsInstaller</a></p>
+</li>
+<li>
+<p>Install Editor <a href="http://www.sublimetext.com/3">Sublime Text 3</a></p>
+
+<p><a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a></p>
+</li>
+</ol><h3>
+<a name="-linux" class="anchor" href="#-linux"><span class="octicon octicon-link"></span></a><a></a> Linux</h3>
 
 <p>Following instructions are taken from <a href="http://gorails.com/setup/ubuntu">http://gorails.com/setup/ubuntu</a></p>
 
@@ -62,51 +92,66 @@
 <li>
 <p>Open <a href="https://help.ubuntu.com/community/UsingTheTerminal">terminal</a> in ubuntu and run the following commands, update package manager</p>
 
+<blockquote>
 <pre><code>sudo apt-get update
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install libraries</p>
 
-<pre><code>sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev
+<blockquote>
+<pre><code>sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev \
+libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Go to <a href="http://en.wikipedia.org/wiki/Home_directory#Unix">home directory</a></p>
 
+<blockquote>
 <pre><code>cd
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install <a href="https://github.com/sstephenson/rbenv">rbenv</a></p>
 
+<blockquote>
 <pre><code>git clone git://github.com/sstephenson/rbenv.git .rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
 echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
 exec $SHELL
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install ruby-build</p>
 
+<blockquote>
 <pre><code>git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' &gt;&gt; ~/.bashrc
 exec $SHELL
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language">ruby</a></p>
 
+<blockquote>
 <pre><code>rbenv install 2.0.0-p247
 rbenv global 2.0.0-p247
 ruby -v
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>When <a href="http://en.wikipedia.org/wiki/RubyGems" title="in ruby libraries are called gems rails is also a gem">gems</a> are installed no need to install documentation.</p>
 
+<blockquote>
 <pre><code>echo "gem: --no-ri --no-rdoc" &gt; ~/.gemrc
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Create a github account if you don't have one.</p>
@@ -118,17 +163,21 @@ ruby -v
 <li>
 <p>Setup <a href="https://git.com">git</a>/<a href="https://github.com">github</a>, use your account info</p>
 
+<blockquote>
 <pre><code>git config --global color.ui true
 git config --global user.name "Wasim Akram"
 git config --global user.email "xxxxxxxx@gmail.com"
 ssh-keygen -t rsa -C "xxxxxxxx@gmail.com"
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Show the generated ssh key</p>
 
+<blockquote>
 <pre><code>cat ~/.ssh/id_rsa.pub
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Copy the printed ssh key and paste in to the following link</p>
@@ -138,58 +187,76 @@ ssh-keygen -t rsa -C "xxxxxxxx@gmail.com"
 <li>
 <p>Verify Github you should see response similar to "Hi excid3! You've successfully authenticated, but GitHub does not provide shell access."</p>
 
+<blockquote>
 <pre><code>ssh -T git@github.com
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install <a href="http://nodejs.org/">nodejs</a></p>
 
+<blockquote>
 <pre><code>sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Install <a href="http://guides.rubyonrails.org/">rails</a></p>
 
+<blockquote>
 <pre><code>gem install rails
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Rehash rbenv so it will pick up install rails</p>
 
+<blockquote>
 <pre><code>rbenv rehash
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Verify rails its version should be 4.0.0+</p>
 
+<blockquote>
 <pre><code>rails -v
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Create a new rails application</p>
 
+<blockquote>
 <pre><code>rails new myapp
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Change directory to myapp</p>
 
+<blockquote>
 <pre><code>cd myapp
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Create Database</p>
 
+<blockquote>
 <pre><code>rake db:create
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Start the server</p>
 
+<blockquote>
 <pre><code>rails server
 </code></pre>
+</blockquote>
 </li>
 <li>
 <p>Verify Application works</p>
@@ -201,7 +268,7 @@ sudo apt-get install nodejs
 
 <p><a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a></p>
 </li>
-</ol><hr>
+</ol>
         </section>
 
         <footer>
