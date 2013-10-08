@@ -7,20 +7,46 @@ categories: Ruby on Rails
 
 *Currently being edited*
 
-### Ruby Tutorials
-Following tutorials are amazing.
-
-* http://tryruby.org/levels/1/challenges/0
-* http://rubymonk.com/
-
+Ruby on Rails Workshop
 ===
 
-###  Development Machine Setup
-Following instructions are taken from http://gorails.com/setup/ubuntu
+Table of Contents
+---
+
+1. [Ruby Tutorials](#ruby-tutorials)
+2. [Development Machine Setup](#development-machine-setup)
+    * [Windows](#setup-windows)
+    * [Linux](#setup-linux)
+
+<a id="ruby-tutorials"></a> 1. Ruby Tutorials
+---
+
+Following tutorials are amazing.
+
+* [tryruby](http://tryruby.org/levels/1/challenges/0)
+* [rubymonk](http://rubymonk.com/)
+
+<a id="development-machine-setup"></a> 2. Development Machine Setup
+---
+
+### <a id="setup-windows"></a> Windows
+1. Install Ruby on Rails
+  
+  [RailsInstaller](http://railsinstaller.org/en "Install ruby, rails git and other tools")
+
+
+2. Install Editor [Sublime Text 3](http://www.sublimetext.com/3)
+
+  [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+
+
+### <a id="setup-linux"></a> Linux
+
+Following instructions are taken from [http://gorails.com/setup/ubuntu](http://gorails.com/setup/ubuntu)
 
 1. Install Ubuntu 13.04 (64-bit if your machine is 64-bit) Ask friends who have already install ubuntu. Before installing another operating system do backup your data to external hard drive incase you loose anything.
 
-  http://www.ubuntu.com/download/desktop
+  [http://www.ubuntu.com/download/desktop](http://www.ubuntu.com/download/desktop)
 
   Following are two [Dual Boot](http://en.wikipedia.org/wiki/Multi_boot) tutorials I found.
   
@@ -74,9 +100,9 @@ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
 8. Create a github account if you don't have one.
 
-  https://github.com
+  [https://github.com](https://github.com)
 
-  https://help.github.com
+  [https://help.github.com](https://help.github.com)
 
 8. Setup [git](https://git.com)/[github](https://github.com), use your account info
 > ```
@@ -93,7 +119,7 @@ cat ~/.ssh/id_rsa.pub
 
 10. Copy the printed ssh key and paste in to the following link
 
-  https://github.com/settings/ssh
+  [https://github.com/settings/ssh](https://github.com/settings/ssh)
 
 11. Verify Github you should see response similar to "Hi excid3! You've successfully authenticated, but GitHub does not provide shell access."
 > ```
@@ -149,5 +175,3 @@ rake db:create
 21. Install Editor [Sublime Text 3](http://www.sublimetext.com/3)
 
   [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
-
-===
