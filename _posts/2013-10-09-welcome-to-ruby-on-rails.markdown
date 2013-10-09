@@ -10,6 +10,8 @@ Table of Contents
 2. [Development Machine Setup](#-2-development-machine-setup)
     * [Windows](#-windows)
     * [Linux](#-linux)
+3. [Links](#-3-links)
+4. [Books](#-4-books)
 
 <a id="-1-ruby-tutorials"></a> 1. Ruby Tutorials
 ---
@@ -168,3 +170,15 @@ rake db:create
 21. Install Editor [Sublime Text 3](http://www.sublimetext.com/3)
 
   [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
+
+<a id="-3-links"></a> 3. Links
+---
+
+* http://en.wikipedia.org/wiki/Ruby_(programming_language)
+* [http://guides.rubyonrails.org/](http://guides.rubyonrails.org/)
+* [https://railscasts.com](https://railscasts.com)
+
+<a id="-4-books"></a> 4. Books
+---
+
+* [http://ruby.railstutorial.org/ruby-on-rails-tutorial-book](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book)
